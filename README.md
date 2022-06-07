@@ -6,5 +6,5 @@
 runner ```cat input.txt | java -jar CronParser-1.0-SNAPSHOT.jar 16:46```
 
 ## improvements
- - extraction of the logic inside Main.kt another files/ classes, that can be unit tested and ready for reuse.
+ - extraction and splitting of the logic inside CronOutputFactoryImpl and Main.kt to more files/ classes, that can be unit tested and ready for reuse.
  - splitting logic to simpler classes / methods to follow SOLID principles
